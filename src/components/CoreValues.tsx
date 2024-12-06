@@ -8,7 +8,7 @@ const CoreValues = () => {
     return (
         <>
             <div className='flex gap-8 my-[4rem]'>
-                <aside className='flex gap-4'>0
+                <aside className='flex gap-4'>
                     <CoreCards />
                     <CoreCards />
                     <CoreCards />
