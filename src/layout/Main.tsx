@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import { Outlet } from "react-router-dom";
+import Footer from "../components/Footer";
 
 const Main = () => {
   return (
@@ -9,7 +10,7 @@ const Main = () => {
       <main className="flex-grow container  mx-auto py-8   mt-[2rem]">
         <Outlet />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
