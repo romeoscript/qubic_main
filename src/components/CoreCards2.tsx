@@ -1,9 +1,9 @@
 
 import dedicate from "../assets/home/dedicate.svg";
 
-import hero1 from "../assets/people/hero1.svg";
-import hero2 from "../assets/people/hero2.svg";
-import hero3 from "../assets/people/hero3.svg";
+import hero1 from "../assets/People/hero1.svg";
+import hero2 from "../assets/People/hero2.svg";
+import hero3 from "../assets/People/hero3.svg";
 import blur from "../assets/home/blur.svg";
 
 
