@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import AnimatedCard from './AnimatedCard'
 import kwick from "../assets/product/kwick.svg";
 import outat from "../assets/product/outat.svg";

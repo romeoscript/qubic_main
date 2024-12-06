@@ -1,4 +1,4 @@
-import React from 'react'
+
 import CoreCards from './CoreCards'
 import { Link } from 'react-router-dom'
 import brain from "../assets/home/brain.svg"

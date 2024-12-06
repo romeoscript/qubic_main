@@ -1,8 +1,6 @@
-import React from 'react';
+
 import dedicate from "../assets/home/dedicate.svg";
-import customer from "../assets/home/customer.svg";
-import open from "../assets/home/open.svg";
-import { Link } from 'react-router-dom';
+
 
 const CoreCards = () => {
   return (
@@ -17,6 +15,7 @@ const CoreCards = () => {
       >
         <img src={dedicate} alt="Dedicate" className="transition-transform duration-300 group-hover:scale-110" />
       </figure>
+      {/* The card number */}
 
       {/* Text figure */}
       <figure className="text-left">

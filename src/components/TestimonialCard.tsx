@@ -13,7 +13,7 @@ interface TestimonialCardProps {
 const TestimonialCard: React.FC<TestimonialCardProps> = ({
   quote,
   author,
-  className = ''
+//   className = ''
 }) => {
   return (
     <div className="w-[400px] p-8 bg-white  my-[1rem] rounded-[20px] border border-gray-100 shadow-sm">

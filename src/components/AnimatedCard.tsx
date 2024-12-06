@@ -11,7 +11,7 @@ const AnimatedCard: React.FC<AnimatedCardProps> = ({
   title, 
   subtitle, 
   image, 
-  className = '' 
+
 }) => {
   return (
     <div className="relative group w-full max-w-md overflow-hidden rounded-[20px] cursor-pointer transition-all duration-300 hover:scale-[1.02]">

@@ -1,8 +1,6 @@
-import React from 'react';
+
 import dedicate from "../assets/home/dedicate.svg";
-import customer from "../assets/home/customer.svg";
-import open from "../assets/home/open.svg";
-import { Link } from 'react-router-dom';
+
 import hero1 from "../assets/people/hero1.svg";
 import hero2 from "../assets/people/hero2.svg";
 import hero3 from "../assets/people/hero3.svg";

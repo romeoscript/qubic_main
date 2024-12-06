@@ -1,4 +1,4 @@
-import React from 'react';
+
 import heroSvg from "../assets/home/hero.svg";
 import hero1 from "../assets/people/hero1.svg";
 import hero2 from "../assets/people/hero2.svg";

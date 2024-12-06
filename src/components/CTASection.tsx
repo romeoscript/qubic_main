@@ -9,7 +9,6 @@ interface CTASectionProps {
 const CTASection: React.FC<CTASectionProps> = ({
   title,
   subtitle,
-  className = ''
 }) => {
   return (
     <div className="w-full bg-[#002B9A] rounded-[20px] overflow-hidden">

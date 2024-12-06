@@ -1,4 +1,4 @@
-import React from 'react'
+
 import insta from "../assets/product/insta.svg";
 import linked from "../assets/product/linked.svg";
 import git from "../assets/product/git.svg";
