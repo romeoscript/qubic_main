@@ -8,7 +8,7 @@ interface CardProps {
   description: string;
 }
 
-const Card: React.FC<CardProps> = ({ title, description }) => {
+const Card: React.FC<CardProps> = ({ description }) => {
   const [showDescription, setShowDescription] = useState(false);
 
   const handleMouseEnter = () => {
