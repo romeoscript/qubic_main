@@ -3,12 +3,22 @@ import CoreCards from './CoreCards'
 import { Link } from 'react-router-dom'
 import brain from "../assets/home/brain.svg"
 import CoreCards2 from './CoreCards2'
+import Carousel from './Carousel'
 
 const CoreValues = () => {
     return (
         <>
-            <div className='flex gap-8 my-[4rem]'>
-                <aside className='flex gap-4'>
+            <div className='flex flex-col-reverse md:flex-row gap-8 my-[4rem]'>
+
+                <Carousel
+                showIndicators={false}
+                className='md:hidden'
+                >
+                    <CoreCards />
+                    <CoreCards />
+                    <CoreCards />
+                </Carousel>
+                <aside className='max-md:hidden flex gap-4'>
                     <CoreCards />
                     <CoreCards />
                     <CoreCards />
@@ -32,7 +42,7 @@ const CoreValues = () => {
                 <p className='text-3xl'>Explore Our <br />
                     <span className='flex items-center gap-4'> Core Services <img src={brain} alt="brain" /></span></p>
 
-                <div className='grid grid-cols-2 gap-8'>
+                <div className='grid md:grid-cols-2 gap-8'>
                     <CoreCards2 />
                     <CoreCards2 />
                 </div>

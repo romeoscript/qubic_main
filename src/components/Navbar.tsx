@@ -12,7 +12,9 @@ const Navbar: React.FC = () => {
             <nav className="max-w-7xl mx-auto py-4 px-8 flex items-center justify-between">
                 {/* Logo */}
                 <div className="text-xl font-bold">
+                    <NavLink to="/">
                     <img src={logo} alt="logo" />
+                    </NavLink>
                 </div>
 
                 {/* Desktop Navigation Links */}

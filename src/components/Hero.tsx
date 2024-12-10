@@ -20,9 +20,9 @@ const Hero = () => {
             </div>
             <div className='flex items-center flex-col gap-6 mt-[1rem]'>
 
-                <h2 className='font-400 text-3xl'>A Dynamic Marketplace for</h2>
-                <h1 className='flex items-center text-5xl font-500'>Creative  <img src={mouse} className='w-12 h-12 mx-[0.5rem]' alt="mouse" />    Digital Services</h1>
-                <p className='w-2/5 text-sm'>Qubic is a fully remote company with it's serene physical office in Nigeria, we offer services in software development and maintenance, cloud Infrastructure and automation and open source contributions.</p>
+                <h2 className='font-400 text-2xl md:text-3xl'>A Dynamic Marketplace for</h2>
+                <h1 className='flex items-center text-2xl md:text-5xl font-500'>Creative <img src={mouse} className='md:w-12 md:h-12 h-[1.5rem] w-[1.5rem] mx-[0.5rem]' alt="mouse" /> <span> Digital Services</span></h1>
+                <p className='md:w-2/5 w-3/4 text-sm'>Qubic is a fully remote company with it's serene physical office in Nigeria, we offer services in software development and maintenance, cloud Infrastructure and automation and open source contributions.</p>
 
                 <Link to="/auth/login" className="text-white px-4 py-2 rounded-full bg-[#003399]">
                     Try us out now

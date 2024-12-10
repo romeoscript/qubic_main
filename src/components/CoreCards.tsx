@@ -5,7 +5,7 @@ import dedicate from "../assets/home/dedicate.svg";
 const CoreCards = () => {
   return (
     <div
-      className="bg-[#F9F9F9] relative hover:bg-[#F5FFFC] cursor-pointer w-[200px] h-[310px] rounded-[20px] flex flex-col items-start justify-end p-[0.7rem] py-[1rem] group relative overflow-hidden transition-shadow duration-300 ease-in-out shadow-md group-hover:shadow-xl"
+      className="bg-[#F9F9F9] relative hover:bg-[#F5FFFC] cursor-pointer md:w-[200px] h-[310px] rounded-[20px] flex flex-col items-start justify-end p-[0.7rem] py-[1rem] group relative overflow-hidden transition-shadow duration-300 ease-in-out shadow-md group-hover:shadow-xl"
     >
       <span className='absolute top-5 left-3 text-[#D9D9D9]'>
         01/

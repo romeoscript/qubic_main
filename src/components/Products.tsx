@@ -12,7 +12,7 @@ const Products = () => {
             </p>
             <p className='text-3xl text-left my-[1rem]'>Made By Qubic </p>
 
-            <div className='grid grid-cols-4 gap-4'>
+            <div className='grid md:grid-cols-4 gap-4'>
                 <AnimatedCard
                     title="Outat TV"
                     subtitle="Online Streaming Platform"
