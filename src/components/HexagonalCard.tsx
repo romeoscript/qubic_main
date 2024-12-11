@@ -8,16 +8,16 @@ interface HexagonCardProps {
 
 const HexagonCard: React.FC<HexagonCardProps> = ({ className }) => {
     return (
-        <div className={`absolute ${className} h-[300px] w-[300px] flex items-center justify-center`}>
+        <div className={`absolute ${className} md:h-[300px] h-30 w-30 md:w-[300px] flex items-center justify-center`}>
             <img
                 src={hexagon2}
                 alt=""
-                className="absolute "
+                className="absolute max-md:h-100  max-md:w-20 "
             />
             <img
                 src={hexagon1}
                 alt=""
-                className="absolute "
+                className="absolute max-md:h-20  max-md:w-20 "
             />
         </div>
     );
