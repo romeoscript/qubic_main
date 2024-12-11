@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div>
       <img src={logo} alt="" />
-      <div className='flex items-center justify-between my-[2rem]'>
+      <div className='md:flex items-center justify-between my-[2rem]'>
         <aside className='flex gap-4'>
           <img src={insta} alt="" />
           <img src={git} alt="" />

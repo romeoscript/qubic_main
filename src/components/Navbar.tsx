@@ -115,7 +115,7 @@ const Navbar: React.FC = () => {
                         </li>
                         <li>
                             <NavLink
-                                to="/blog"
+                                 to="/projects"
                                 onClick={() => setIsMobileMenuOpen(false)}
                                 className={({ isActive }) =>
                                     isActive
@@ -123,12 +123,12 @@ const Navbar: React.FC = () => {
                                         : "block hover:text-[#1E1E1E80]"
                                 }
                             >
-                                Blog
+                                Projects
                             </NavLink>
                         </li>
                         <li>
                             <NavLink
-                                to="/contact"
+                                 to="/Pricing"
                                 onClick={() => setIsMobileMenuOpen(false)}
                                 className={({ isActive }) =>
                                     isActive
@@ -136,18 +136,19 @@ const Navbar: React.FC = () => {
                                         : "block hover:text-[#1E1E1E80]"
                                 }
                             >
-                                Contact
+                                Pricings
                             </NavLink>
                         </li>
+                        
                         <li className="mt-4 bg-[#003399] rounded-md">
-                            <a href="#login" className="block text-gray-700">
+                            <a href="#login" className="block text-white px-4 py-2 ">
                                 Request a quote
                             </a>
                         </li>
                         <li>
                             <a
                                 href="#signup"
-                                className="block px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700"
+                                className="block px-4 py-2 bg-blue-600 text-[#003399] bg-white border-[1px] border-[#003399]]  rounded-md hover:bg-blue-700"
                             >
                                 Reach us
                             </a>
